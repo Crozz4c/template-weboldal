@@ -5,3 +5,13 @@
 .nagybetus {
     text-transform: uppercase;
 }
+
+.fk {
+    font-weight: bold;
+}
+
+.fk-spec {
+    font-weight: bold;
+    background-color: palevioletred;
+    color: red;
+}
