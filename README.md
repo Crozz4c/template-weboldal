@@ -8,7 +8,7 @@ Osztály: 9TC
 
 ## Téma
 
-A weboldalam témája: Egy elméleti reaktor bekapcsolási folyamata és elektromos áram termelése
+A weboldalam témája: Egy elméleti reaktorral foglalkozó program általános információi és erőművek amik a programot használják.
 
 ## Template
 
@@ -17,11 +17,11 @@ Ezt a W3.CSS template-et választottam: Screen 50/50 Template
 
 ## Mit módosítottam?
 
--
--
--
--
--
+- dobozok színeit
+- saját képek
+- saját szöveg
+- navigáció átírása
+- jogokra való felhívás
 
 ## Használt technológiák
 
