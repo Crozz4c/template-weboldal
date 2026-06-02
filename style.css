@@ -1,7 +1,3 @@
-.w3-hover-brown:hover {
-    background-color: burlywood !important;
-}
-
 .nagybetus {
     text-transform: uppercase;
 }
@@ -13,5 +9,17 @@
 .fk-spec {
     font-weight: bold;
     background-color: palevioletred;
-    color: red;
+    color: darkred;
+}
+
+.body {
+    background-color: #8a8a8a !important;
+}
+
+.left-border {
+    border-left: solid grey 2px;
+}
+
+.top-border {
+    border-top: solid grey 3px;
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>W3.CSS Template</title>
+<link rel="icon" href="img/favicon.png">
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="style.css">
@@ -15,10 +16,10 @@
       <h1>Navigáció</h1>
     </div>
     <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-pale-red w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-pale-red w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-pale-red w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-pale-red w3-block w3-hover-brown w3-padding-16">Contact</a>
+      <a href="#" class="w3-button w3-grey w3-block w3-hover-asphalt w3-padding-16">Navigáció</a>
+      <a href="#kepek" class="w3-button w3-grey w3-block w3-hover-light-gray w3-padding-16">Képek</a>
+      <a href="#most" class="w3-button w3-grey w3-block w3-hover-orange w3-padding-16">Erőműveink</a>
+      <a href="#kontakt" class="w3-button w3-grey w3-block w3-hover-pale-red w3-padding-16">Kapcsolatfelvétel</a>
     </div>
   </div>
   <div class="w3-half w3-blue-grey w3-container" style="height:700px">
@@ -26,8 +27,8 @@
       <h1>A Reaktor</h1>
       <img src="img/Reaktor.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
       <div class="w3-left-align w3-padding-large">
-        <p>Ez egy kísérleti reaktor ami <span class="fk">uránium-dioxid rudakat foglal héliummal töltött edzett acél csőbe</span> és ezekkel a fűtőelemekkel termel hőt.</p>
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Ez egy kísérleti reaktor ami <span class="fk-spec">uránium-dioxid rudakat foglal héliummal töltött edzett acél csőbe</span> és ezekkel a fűtőelemekkel termel hőt.</p>
+        <p>A hő termelését <span class="fk-spec">bórból készült szabályzó rudak</span> irányítják, moderálják.</p>
       </div>
     </div>
   </div>
@@ -35,10 +36,10 @@
 
 <!-- Second Grid: Work & Resume -->
 <div class="w3-row">
-  <div class="w3-light-grey w3-center" style="min-height:800px" id="work">
+  <div class="w3-light-grey w3-center" style="min-height:800px" id="kepek">
     <div class="w3-padding-64">
-      <h2>My Work</h2>
-      <p>Some of my latest projects.</p>
+      <h2>Galéria</h2>
+      <p>Képek erőműveinkről.</p>
     </div>
     <div class="w3-row">
       <div class="w3-half">
@@ -65,50 +66,52 @@
         <img src="img/MFaramszallitas.jpg" style="width:100%">
       </div>
     </div><br>
-    <p class="nagybetus">A képek csak illusztrációk.</p>
+    <p class="nagybetus">A képek csak illusztrációk. (FORRÁS: UNSPLASH)</p>
   </div>
-  <div class="w3-indigo w3-container" style="min-height:800px">
+  <div class="w3-orange w3-container" style="min-height:800px" id="most">
     <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A draft from my CV</p>
+      <h2 class="fk">Erőműveink</h2>
+      <p>Erőműveink világszerte.</p>
       <div class="w3-container w3-responsive">
         <table class="w3-table">
           <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
+            <th>Alapítás</th>
+            <th>Erőmű neve</th>
+            <th>Hol található</th>
           </tr>
-          <tr class="w3-white">
-            <td>2012-2016</td>
-            <td>The rest is history..</td>
-            <td>Lorem ipsum</td>
-          </tr>
-          <tr>
-            <td>2009-2012</td>
-            <td>Started my own company</td>
-            <td>My Garage</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2008-2009</td>
-            <td>Started working for Lorem</td>
-            <td>London, UK</td>
+          <tr class="w3-black">
+            <td>2025-2030</td>
+            <td>Paksi Kísérleti Reaktor Program "Nuxus" átmeneti épülete</td>
+            <td>Paks, Magyarország</td>
           </tr>
           <tr>
-            <td>2005-2008</td>
-            <td>Degree in Bachelor of Design</td>
-            <td>Harvard, USA</td>
+            <td>2014-2020</td>
+            <td>Fjodor Ivanovics Tolbuhin Atomerőmű</td>
+            <td>Baja, Magyarország</td>
           </tr>
-          <tr class="w3-white">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
+          <tr class="w3-black">
+            <td>2013-2020</td>
+            <td>Unkarin liittovaltion voimalaitos</td>
+            <td>Lisalmi, Finnország</td>
+          </tr>
+          <tr>
+            <td>2009-</td>
+            <td>Szerb Alsóbbfokú Elektromos Termelőerőmű</td>
+            <td>Златибор (Zlatibor), Szerbia</td>
+          </tr>
+          <tr class="w3-black">
+            <td>2005-</td>
+            <td>Kelet-Winx-i Atomerőmű</td>
+            <td>Piura, Peru</td>
           </tr>
           <tr class="w3-hide-medium">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
+            <td>1992-2004</td>
+            <td>Pakaali-ai Hőerőmű</td>
+            <td>Pyhäjärvi, Finnország</td>
           </tr>
         </table>
+        <h2>Erőműveink közül jelenleg 2 aktív.</h2>
+        <p>Az állapotuk így marad amíg le nem szerelik az erőműveket, vagy amíg a települések le nem iratkoznak a programról.</p>
       </div>
     </div>
   </div>
@@ -116,42 +119,43 @@
 
 <!-- Third Grid: Swing By & Contact -->
 <div class="w3-row" id="contact">
-  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+  <div class="w3-half w3-pale-red w3-container w3-center" style="height:700px">
     <div class="w3-padding-64">
-      <h1>Swing By</h1>
+      <h1>Központ</h1>
     </div>
     <div class="w3-padding-64">
-      <p>..for a cup of coffee, or whatever.</p>
-      <p>Chicago, US</p>
-      <p>+00 1515151515</p>
-      <p>test@test.com</p>
+      <p>Központi Iroda</p>
+      <p>Budapest, Magyarország</p>
+      <p>+36 20 304 4050</p>
+      <a href="#">Vissza a tetejére...</a>
     </div>
   </div>
-  <div class="w3-half w3-teal w3-container" style="height:700px">
+  <div class="w3-half w3-pale-red left-border w3-container" style="height:700px" id="kontakt">
     <div class="w3-padding-64 w3-padding-large">
-      <h1>Contact</h1>
-      <p class="w3-opacity">GET IN TOUCH</p>
+      <h1>Kapcsolatfelvétel</h1>
+      <p class="w3-opacity"><span class="fk">Itt iratkozhat fel a programra!</span> Munkatársaink 5 munkanapon belül értékelik kérelmét.</p>
       <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
         <div class="w3-section">
-          <label>Name</label>
+          <label>Név</label>
           <input class="w3-input" style="width:100%;" type="text" required name="Name">
         </div>
         <div class="w3-section">
-          <label>Email</label>
+          <label>E-mail cím</label>
           <input class="w3-input" style="width:100%;" type="text" required name="Email">
         </div>
         <div class="w3-section">
-          <label>Message</label>
+          <label>Cím és irányítószám</label>
           <input class="w3-input" style="width:100%;" type="text" required name="Message">
         </div>
-        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+        <button type="submit" class="w3-button w3-teal w3-right">Kérelem küldése</button>
       </form>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-pale-red w3-padding-16">
+<footer class="w3-container top-border w3-pale-red w3-padding-16">
+  <p>&copy; 2026 Minden jog fenntartva</p>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
