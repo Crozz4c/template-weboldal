@@ -23,3 +23,7 @@
 .top-border {
     border-top: solid grey 3px;
 }
+
+.black {
+    color: black;
+}
