@@ -27,3 +27,17 @@
 .black {
     color: black;
 }
+
+.jobbrazart {
+    float: right;
+}
+
+.magassag {
+    height: 125px;
+    margin-right: 45%;
+}
+
+.divmod {
+    height: 20px;
+    width: 100%;
+}
