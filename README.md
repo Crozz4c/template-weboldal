@@ -19,7 +19,7 @@ Ezt a W3.CSS template-et választottam: Screen 50/50 Template
 
 - dobozok színeit
 - saját képek
-- saját szöveg
+- favicon
 - navigáció átírása
 - jogokra való felhívás
 
