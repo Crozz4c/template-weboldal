@@ -32,4 +32,4 @@ Ezt a W3.CSS template-et választottam: Screen 50/50 Template
 
 ## Weboldal linkje
 
-GitHub Pages link:
+GitHub Pages link: https://github.com/Crozz4c/template-weboldal
