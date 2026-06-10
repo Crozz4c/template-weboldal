@@ -28,14 +28,10 @@
     color: black;
 }
 
-.jobbrazart {
-    float: right;
-}
-
 .magassag {
     height: 125px;
-    margin-right: 45%;
 }
+
 
 .divmod {
     height: 20px;
@@ -45,4 +41,11 @@
 .zaro {
     display: block;
     float: left;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
